@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
             root.style.setProperty('--accent', '#CC6CE7');
 
             // Update button text
-            changeBgBtn.textContent = "✨ Switch to Light Mode (expiremental)";
+            changeBgBtn.textContent = "Switch to Light Mode (expiremental)";
         } else {
             body.classList.remove("dark-gradient");
             body.classList.add("light-gradient");
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Change accent color for light mode
             root.style.setProperty('--accent', '#C599FA')
             // Update button text
-            changeBgBtn.textContent = "🌙 Switch to Dark Mode (experimental)";
+            changeBgBtn.textContent = "Switch to Dark Mode (experimental)";
         }
     });
 
